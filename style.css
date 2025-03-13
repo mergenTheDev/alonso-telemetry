@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "F1 Regular";
+    src: url("assets/fonts/f1-regular.ttf");
+}
+
+@font-face {
+    font-family: "F1 Bold";
+    src: url("assets/fonts/f1-bold.ttf");
+}
+
+@font-face {
+    font-family: "F1 Black";
+    src: url("assets/fonts/f1-black.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #037A68;
+}
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "F1 Bold";
+}
