@@ -42,3 +42,55 @@ body {
     text-decoration: none;
     font-family: "F1 Bold";
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #037A68;
+    color: white;
+    width: 100%;
+    font-family: "F1 Regular";
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+}
+
+.github {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+  
+.github .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+  
+.github svg path {
+    transition: 400ms;
+}
+  
+.github:hover {
+    background-color: transparent;
+}
+  
+.github:hover .text {
+    color: #181717;
+}
+  
+.github:hover svg path {
+    fill: #181717;
+}
