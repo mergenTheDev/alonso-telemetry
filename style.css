@@ -45,16 +45,19 @@ body {
 }
 
 .throttle {
-    display: block;
-    margin: auto;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.throttle h3 {
+    display: block;
 }
 
 .throttle .pedal {
     width: 50vw;
     height: 16px;
-    margin: auto;
     margin-top: 10px;
     color: chartreuse;
     background-color: chartreuse;
@@ -64,6 +67,7 @@ body {
 
 .throttle .percentage {
     font-family: "F1 Regular";
+    margin-left: 12px;
 }
 
 h2 {
