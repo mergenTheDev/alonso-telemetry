@@ -44,6 +44,70 @@ body {
     font-family: "F1 Bold";
 }
 
+.speed {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.speed h4 {
+    font-family: "F1 Bold";
+    text-align: center;
+}
+
+.speed p {
+    font-family: "F1 Regular";
+    text-align: center;
+}
+
+.rpm {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.rpm h4 {
+    font-family: "F1 Bold";
+    text-align: center;
+}
+
+.rpm p {
+    font-family: "F1 Regular";
+    text-align: center;
+}
+
+.gear {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.gear h4 {
+    font-family: "F1 Bold";
+    text-align: center;
+}
+
+.gear p {
+    font-family: "F1 Regular";
+    text-align: center;
+}
+
+.drs {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.drs h4 {
+    font-family: "F1 Bold";
+    text-align: center;
+}
+
+.drs p {
+    font-family: "F1 Regular";
+    text-align: center;
+}
+
 .throttle {
     display: flex;
     align-items: center;
@@ -64,10 +128,10 @@ body {
     border-radius: 8px;
 }
 
-.throttle .percentage {
+/*.throttle .percentage {
     font-family: "F1 Regular";
     margin-left: 10px;
-}
+}*/
 
 .brake {
     display: flex;
