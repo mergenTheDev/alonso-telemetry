@@ -44,11 +44,37 @@ body {
     font-family: "F1 Bold";
 }
 
+.throttle {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.throttle .pedal {
+    width: 50vw;
+    height: 16px;
+    margin: auto;
+    margin-top: 10px;
+    color: chartreuse;
+    background-color: chartreuse;
+    border: 1px solid chartreuse;
+    border-radius: 8px;
+}
+
+.throttle .percentage {
+    font-family: "F1 Regular";
+}
+
 h2 {
     font-family: "F1 Bold";
+    text-align: center;
+    margin-top: 10px;
 }
 
 h3 {
+    text-align: center;
+    margin-top: 10px;
     font-family: "F1 Bold";
 }
 
@@ -61,7 +87,7 @@ footer {
     font-family: "F1 Regular";
     font-size: 16px;
     text-align: center;
-    padding: 30px;
+    padding: 28px;
 }
 
 .github {
