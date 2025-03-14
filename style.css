@@ -108,6 +108,18 @@ footer {
     font-size: 16px;
     text-align: center;
     padding: 28px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
 }
 
 .github {
