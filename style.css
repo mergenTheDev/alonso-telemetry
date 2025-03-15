@@ -219,9 +219,9 @@ h3 {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     margin: auto;
+    margin-top: 20px;
     background-color: #037A68;
     color: white;
     width: 100%;
