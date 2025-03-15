@@ -149,6 +149,43 @@ body {
     border-radius: 8px;
 }
 
+.sectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sectors .s1 {
+    width: 80px;
+    height: 20px;
+    background-color: #881ecf;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.sectors .s2 {
+    width: 80px;
+    height: 20px;
+    background-color: #881ecf;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.sectors .s3 {
+    width: 80px;
+    height: 20px;
+    background-color: #881ecf;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
 h2 {
     font-family: "F1 Bold";
     text-align: center;
