@@ -186,6 +186,26 @@ body {
     margin-right: 3px;
 }
 
+.laptime {
+    display: block;
+    margin: auto;
+}
+
+.laptime p {
+    font-family: "F1 Regular";
+    text-align: center;
+}
+
+.fastestlaptime {
+    display: block;
+    margin: auto;
+}
+
+.fastestlaptime p {
+    font-family: "F1 Regular";
+    text-align: center;
+}
+
 h2 {
     font-family: "F1 Bold";
     text-align: center;
