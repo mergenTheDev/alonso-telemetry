@@ -18,9 +18,16 @@
     padding: 0;
 }
 
-body {
+body, html {
     background-color: #111;
     color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
 }
 
 .navbar ul {
